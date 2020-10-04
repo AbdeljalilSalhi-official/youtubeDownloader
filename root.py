@@ -45,6 +45,7 @@ def videoDL():
     except:
         messagebox.showerror("Error...", "ERROR !")
 
+        
 rootTitle = Label(root, text="Youtube Downloader @abdeljalilsalhi", font=32, bg=bgc, fg=fgc)
 rootTitle.grid(row=0, column=1)
 #YOUTUBE DOWNLOADER FRAME
